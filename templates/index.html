@@ -5,6 +5,16 @@
     <title>head</title>
   </head>
   <body>
-    <form type="text placeholder="Name" autocomplete="off" autofocus>
+    <form action="/greet" method="get">
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        autocomplete="off"
+        autofocus
+        required
+      />
+      <input type="submit" />
+    </form>
   </body>
 </html>
